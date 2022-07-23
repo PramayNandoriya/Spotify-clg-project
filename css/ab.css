@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.hero{
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.navbar
+{
+ width: 88%;
+margin: auto;
+padding: 15px 0;
+display: flex;
+align-items: center;
+justify-content: space-between;
+
+}
+.logo{
+    width: 180px;
+    cursor: pointer;
+}
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin:  0 15px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.navbar ul li a:focus, .navbar ul li a:hover{
+	color: #1ed760;
+} 
+@import url('https://fonts.googleapis.com/css?family=Allura|Josefin+Sans');
+body{
+  background: black;
+  font-family: 'Josefin Sans', sans-serif;
+}
+.wrapper{
+  margin-top: 50px;
+}
+.wrapper h1{
+  font-family: 'Allura', cursive;
+  font-size: 62px;
+  margin-bottom: 60px;
+  text-align: center;
+  color: white;
+}
+
+.wrapper h4{
+  font-size: 20px;
+  margin-bottom: 60px;
+  text-align: justify;
+  color: white;
+}
+.wrapper p{
+  color: white;
+}
+.team{
+  display: flex;
+  justify-content: center;
+  width: auto;
+  text-align: center;
+  flex-wrap: wrap;
+}
+.team .team_member{
+  background: black;
+  margin: 5px;
+  margin-bottom: 50px;
+  width: 300px;
+  padding: 20px;
+  line-height: 20px;
+  color: #fff;  
+  position: relative;
+}
+.team .team_member h3{
+  color: #1DB954;
+  font-size: 26px;
+  margin-top: 50px;
+}
